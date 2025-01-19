@@ -15,11 +15,11 @@ function getNearestAncestorByTagName(htmlElementNode, tagName) {
 }
 
 function titleCase(str) {
-    str = str.toLowerCase().split(' ');
-    for (var i = 0; i < str.length; i++) {
-      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
-    }
-    return str.join(' ');
+    str
+    .toLowerCase()
+    .split(/\s+/)
+    .map(a => a.charAt(0).toUpperCase() + a.slice(1))
+    .join(String.fromCharCode(0x20))
 }
 
 const TD_SUBJECT_CODE_INDEX = 0;
