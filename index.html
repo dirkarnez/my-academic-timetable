@@ -18,7 +18,7 @@
     <div class="container">
         <h1 class="title">Title</h1>
         <div class="columns is-multiline">
-            <div class="column  is-full has-background-light">
+            <div class="column is-full has-background-light">
                 <div class="columns  is-multiline">
                     <div class="column is-full">Monday</div>
                     <div class="column is-full">Third column</div>
@@ -132,7 +132,7 @@
         }
 
         const result = Object.groupBy(JSON.parse(data), ({ weekday }) => weekday);
-        
+
         const mon = removeSameCourse(result["Mon"])
             .map(a => preprocess(a))
             .sort(function(a, b) {
