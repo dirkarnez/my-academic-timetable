@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    >
+    <style>
+        :root {
+            --bulma-body-overflow-y: visible;
+            --bulma-body-overflow-x: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Title</h1>
+        <div class="fixed-grid has-7-cols">
+            <div class="grid" id="timetable">
+                <div class="cell has-background-primary has-text-primary-invert has-radius-normal" style="position: relative;">
+                  <span style="position: absolute; top: -0.8rem; right: 0;">8:30 am</span>
+                </div>
+
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 2
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 3
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 4
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 5
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 6
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 7
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 8
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 9
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 10
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 11
+                </div>
+              
+                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
+                  Cell 12
+                </div>
+              
+            </div>
+          </div>
+    </div>
+    <script>
+        const timeTable = document.getElementById("timetable");
+
+        const addLesson = (weekDay, startHours, startMinutes, endHours, endMinutes) => {
+            const epochStart = new Date(Date.UTC(0));
+            epochStart.setHours(startHours);
+            epochStart.setMinutes(startMinutes);
+
+            const epochEnd = new Date(Date.UTC(0));
+            epochEnd.setHours(endHours);
+            epochEnd.setMinutes(endMinutes);
+
+            const durationInHours = (epochEnd - epochStart) / 60 / 60 / 1000;
+
+            const rowsNeeded = durationInHours / 0.5;
+
+            debugger;
+            
+        };
+
+        addLesson(1, 8, 30, 11, 30);
+
+    </script>
+</body>
+</html>
