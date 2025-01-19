@@ -17,56 +17,11 @@
 <body>
     <div class="container">
         <h1 class="title">Title</h1>
-        <div class="fixed-grid has-7-cols">
-            <div class="grid" id="timetable">
-                <div class="cell has-background-primary has-text-primary-invert has-radius-normal" style="position: relative;">
-                  <span style="position: absolute; top: -0.8rem; right: 0;">8:30 am</span>
-                </div>
-
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 2
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 3
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 4
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 5
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 6
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 7
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 8
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 9
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 10
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 11
-                </div>
-              
-                <div class="cell py-3 px-4 has-background-primary has-text-primary-invert has-radius-normal">
-                  Cell 12
-                </div>
-            </div>
+        <div class="columns">
+            <div class="column is-full has-background-light">First column</div>
+            <div class="column">Second column</div>
+            <div class="column">Third column</div>
+            <div class="column">Fourth column</div>
           </div>
     </div>
     <script>
@@ -85,20 +40,84 @@
 
             const rowsNeeded = durationInHours / 0.5;
 
-            debugger;
-            
         };
 
-        const date = `
+        function removeDuplicates(array, uniqueIdFunction) {
+            if (!Array.isArray(array)) {
+                return [];
+            }
+            // Create a Set to store unique IDs
+            const uniqueIds = new Set();
+            
+            // Filter the array to remove duplicates
+            return array.filter(obj => {
+                // If the ID is not in the Set, add it and keep the object
+                const key = uniqueIdFunction(obj);
+                if (!uniqueIds.has(key)) {
+                    uniqueIds.add(key);
+                    return true;
+                }
+                // Otherwise, discard the object
+                return false;
+            })
+        }
+
+        const data = `
         [
             {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
             {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"},
             {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
             {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"}
         ]
-        `
+        `;
 
-        addLesson(1, 8, 30, 11, 30);
+        const removeSameCourse = array => removeDuplicates(array, a => `${a["start_time"]}-${a["end_time"]}`)
+
+        const parse = time => {
+            const hM = time.split(":");
+            const epochTime = new Date(Date.UTC(0));
+            epochTime.setHours(hM[0]);
+            epochTime.setMinutes(hM[1]);
+            return epochTime;
+        }
+
+        function compareStartTime(a, b) {
+            return a["start_time"] - b["start_time"];
+        }
+
+        function preprocess(a) {
+            return ({
+                ...a,
+                "start_time": parse(a["start_time"]),
+                "end_time": parse(a["end_time"])
+            })
+        }
+
+        const result = Object.groupBy(JSON.parse(data), ({ weekday }) => weekday);
+        const mon = removeSameCourse(result["Mon"])
+            .map(a => preprocess(a))
+            .sort(function(a, b) {
+                console.log("!!!!!")
+                return a["start_time"] - b["start_time"];
+            });
+
+
+        // .forEach(course => {
+        //     // addLesson(1, course["start_time"].getHour(), course["start_time"].getMinutes(), course["end_time"].getHour(), course["end_time"].getMinutes());
+        // })
+        // removeSameCourse(result["Tue"]).sort(compareStartTime)
+        // removeSameCourse(result["Wed"]).sort(compareStartTime)
+        // removeSameCourse(result["Thu"]).sort(compareStartTime)
+        // removeSameCourse(result["Fri"]).sort(compareStartTime)
+        // removeSameCourse(result["Sat"]).sort(compareStartTime)
+        debugger;
+        
+
+
+
+
+        
+        
 
     </script>
 </body>
