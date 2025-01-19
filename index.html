@@ -17,12 +17,50 @@
 <body>
     <div class="container">
         <h1 class="title">Title</h1>
-        <div class="columns">
-            <div class="column is-full has-background-light">First column</div>
-            <div class="column">Second column</div>
-            <div class="column">Third column</div>
-            <div class="column">Fourth column</div>
-          </div>
+        <div class="columns is-multiline">
+            <div class="column  is-full has-background-light">
+                <div class="columns  is-multiline">
+                    <div class="column is-full">Monday</div>
+                    <div class="column is-full">Third column</div>
+                    <div class="column is-full">Fourth column</div>
+                </div>
+            </div>
+
+            <div class="column is-full has-background-dark">
+                <div class="columns  is-multiline">
+                    <div class="column is-full">Tuesday</div>
+                    <div class="column is-full ">Third column</div>
+                    <div class="column is-full">Fourth column</div>
+                </div>
+            </div>
+
+            
+            <div class="column is-full has-background-dark">
+                <div class="columns  is-multiline">
+                    <div class="column is-full">Tuesday</div>
+                    <div class="column is-full ">Third column</div>
+                    <div class="column is-full">Fourth column</div>
+                </div>
+            </div>
+
+            
+            <div class="column is-full has-background-dark">
+                <div class="columns  is-multiline">
+                    <div class="column is-full">Tuesday</div>
+                    <div class="column is-full ">Third column</div>
+                    <div class="column is-full">Fourth column</div>
+                </div>
+            </div>
+
+            
+            <div class="column is-full has-background-dark">
+                <div class="columns  is-multiline">
+                    <div class="column is-full">Tuesday</div>
+                    <div class="column is-full ">Third column</div>
+                    <div class="column is-full">Fourth column</div>
+                </div>
+            </div>
+        </div>
     </div>
     <script>
         const timeTable = document.getElementById("timetable");
@@ -94,6 +132,7 @@
         }
 
         const result = Object.groupBy(JSON.parse(data), ({ weekday }) => weekday);
+        
         const mon = removeSameCourse(result["Mon"])
             .map(a => preprocess(a))
             .sort(function(a, b) {
