@@ -190,10 +190,22 @@
         }
         
         function render(a, id) {
+            const hM = a["start_time"].split(":");
+          
+            const now = new Date();
+          
+            const courseDate = new Date();
+            courseDate.setHours(hM[0]);
+            courseDate.setMinutes(hM[1]);
+          
             const div = document.createElement("div");
             div.classList.add("col");
             div.classList.add("col-12");
             div.classList.add("course");
+            if (courseDate.getDay() == now.getDay() && courseDate.getTime() > now.getTime()) {
+              div.style.color = "cyan";
+            }
+          
             div.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
             document.getElementById(id).parentNode.appendChild(div);
         }
@@ -221,9 +233,10 @@
             _.groupBy(_.flatten(dataList), ({ weekday }) => weekday)
         ))
         .then(groups => {
-
+            const ids = ["mon", "tue", "wed", "thu", "fri", "sat"];
+          
             ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-            .forEach(key => {
+            .forEach((weekday, idx) => {
                 _
                 .uniqBy(
                     _.sortBy(groups[key], [
@@ -236,7 +249,7 @@
                     )
                 )
                 .forEach(a => {
-                    render(a, `${key}`.toLowerCase());
+                    render(a, ids[idx]);
                 });
             })
         })
