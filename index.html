@@ -202,6 +202,7 @@
             div.classList.add("col");
             div.classList.add("col-12");
             div.classList.add("course");
+          
             if (courseDate.getDay() == now.getDay() && courseDate.getTime() > now.getTime()) {
               div.style.color = "cyan";
             }
@@ -239,7 +240,7 @@
             .forEach((weekday, idx) => {
                 _
                 .uniqBy(
-                    _.sortBy(groups[key], [
+                    _.sortBy(groups[weekday], [
                         function (o) { 
                             return parse(o["start_time"]);
                         }
