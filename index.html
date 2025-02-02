@@ -3,61 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
-    >
-    <style>
+    > -->
+
+    <!-- <style>
         :root {
             --bulma-body-overflow-y: visible;
             --bulma-body-overflow-x: visible;
         }
+    </style> -->
+
+    <style>
+        body {
+            background-color: #364C59;
+            color: #d9eefb;
+        }
+
+        .container {
+            margin: 1rem;
+        }
+
+        .weekday {
+            background-color: #19232a;
+        }
+
+        .course {
+            background-color: #243540;
+        }
     </style>
+    <link
+        rel="stylesheet"
+        href="./flex-grid-lite.css"
+    >
 </head>
 <body>
     <div class="container">
         <h1 class="title">Title</h1>
-        <div class="columns is-multiline">
-            <div class="column is-full has-background-light">
-                <div class="columns  is-multiline">
-                    <div class="column is-full">Monday</div>
-                    <div class="column is-full">Third column</div>
-                    <div class="column is-full">Fourth column</div>
+        <div class="grid">
+            <div class="col col-12">
+                <div class="grid">
+                    <div id="mon" class="weekday col col-12">Monday</div>
                 </div>
             </div>
 
-            <div class="column is-full has-background-dark">
-                <div class="columns  is-multiline">
-                    <div class="column is-full">Tuesday</div>
-                    <div class="column is-full ">Third column</div>
-                    <div class="column is-full">Fourth column</div>
+            <div class="col col-12">
+                <div class="grid">
+                    <div id="tue" class="weekday col col-12">Tuesday</div>
                 </div>
             </div>
 
             
-            <div class="column is-full has-background-dark">
-                <div class="columns  is-multiline">
-                    <div class="column is-full">Tuesday</div>
-                    <div class="column is-full ">Third column</div>
-                    <div class="column is-full">Fourth column</div>
+            <div class="col col-12">
+                <div class="grid">
+                    <div id="wed" class="weekday col col-12">Wednesday</div>
                 </div>
             </div>
 
             
-            <div class="column is-full has-background-dark">
-                <div class="columns  is-multiline">
-                    <div class="column is-full">Tuesday</div>
-                    <div class="column is-full ">Third column</div>
-                    <div class="column is-full">Fourth column</div>
+            <div class="col col-12">
+                <div class="grid">
+                    <div id="thu" class="weekday col col-12">Thursday</div>
                 </div>
             </div>
 
             
-            <div class="column is-full has-background-dark">
-                <div class="columns  is-multiline">
-                    <div class="column is-full">Tuesday</div>
-                    <div class="column is-full ">Third column</div>
-                    <div class="column is-full">Fourth column</div>
+            <div class="col col-12">
+                <div class="grid">
+                    <div id="fri" class="weekday col col-12">Friday</div>
+                </div>
+            </div>
+
+            <div class="col col-12">
+                <div class="grid">
+                    <div id="sat" class="weekday col col-12">Saturday</div>
                 </div>
             </div>
         </div>
@@ -106,10 +128,11 @@
             {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"},
             {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
             {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"}
-        ]
-        `;
+        ]`;
 
-        const removeSameCourse = array => removeDuplicates(array, a => `${a["start_time"]}-${a["end_time"]}`)
+        const removeSameCourse = array => (
+            removeDuplicates(array, a => `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}`)
+        )
 
         const parse = time => {
             const hM = time.split(":");
@@ -130,15 +153,60 @@
                 "end_time": parse(a["end_time"])
             })
         }
+        
+        function render(a, id) {
+            const div = document.createElement("div");
+            div.classList.add("col");
+            div.classList.add("col-12");
+            div.classList.add("course");
+            div.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]}(${a["component_code"]})`;
+            document.getElementById(id).parentNode.appendChild(div);
+        }
 
-        const result = Object.groupBy(JSON.parse(data), ({ weekday }) => weekday);
+        Promise.all([
+            fetch("./AMA1110.json"),
+            fetch("./AMA1120.json"),
+            fetch("./AMA1500.json"),
+            fetch("./AMA2104.json"),
+            fetch("./AMA2111.json"),
+            fetch("./AMA2112.json"),
+            fetch("./AMA2131.json"),
+            fetch("./EIE2302.json"),
+            fetch("./EIE3103.json"),
+            fetch("./EIE3105.json"),
+            fetch("./EIE3124.json"),
+            fetch("./EIE3331.json"),
+            fetch("./EIE3333.json"),
+            fetch("./EIE4413.json")
+        ])
+        .then(responseList => (
+            Promise.all(responseList.map(response => response.json()))
+        ))
+        .then(dataList => (
+            _.groupBy(_.flatten(dataList), ({ weekday }) => weekday)
+        ))
+        .then(groups => {
+            Array.of("Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
+            .forEach(key => {
+                _
+                .uniqBy(
+                    _.sortBy(groups[key], [
+                        function (o) { 
+                            return parse(o["start_time"]);
+                        }
+                    ]), 
+                    a => (
+                        `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}`
+                    )
+                )
+                .forEach(a => {
+                    render(a, `${key}`.toLowerCase());
+                });
+            })
+        })
 
-        const mon = removeSameCourse(result["Mon"])
-            .map(a => preprocess(a))
-            .sort(function(a, b) {
-                console.log("!!!!!")
-                return a["start_time"] - b["start_time"];
-            });
+       
+    
 
 
         // .forEach(course => {

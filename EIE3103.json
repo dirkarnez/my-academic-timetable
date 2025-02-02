@@ -1,0 +1,34 @@
+[
+    {
+        "subject_code": "EIE3103",
+        "component_code": "LAB001",
+        "weekday": "Sat",
+        "start_time": "10:30",
+        "end_time": "13:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE3103",
+        "component_code": "LEC001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "N103"
+    },
+    {
+        "subject_code": "EIE3103",
+        "component_code": "LAB001",
+        "weekday": "Sat",
+        "start_time": "10:30",
+        "end_time": "13:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE3103",
+        "component_code": "LEC001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "N103"
+    }
+]

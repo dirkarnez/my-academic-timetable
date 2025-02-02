@@ -1,0 +1,18 @@
+[
+    {
+        "subject_code": "EIE3105",
+        "component_code": "LAB001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF005, CF105, CF502"
+    },
+    {
+        "subject_code": "EIE3105",
+        "component_code": "LEC001",
+        "weekday": "Thu",
+        "start_time": "10:30",
+        "end_time": "12:20",
+        "venue": "BC305"
+    }
+]

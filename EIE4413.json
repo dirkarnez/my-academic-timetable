@@ -1,0 +1,50 @@
+[
+    {
+        "subject_code": "EIE4413",
+        "component_code": "LAB001",
+        "weekday": "Thu",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF504"
+    },
+    {
+        "subject_code": "EIE4413",
+        "component_code": "LEC001",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "AG206"
+    },
+    {
+        "subject_code": "EIE4413",
+        "component_code": "TUT001",
+        "weekday": "Thu",
+        "start_time": "14:30",
+        "end_time": "15:20",
+        "venue": "BC203"
+    },
+    {
+        "subject_code": "EIE4413",
+        "component_code": "LAB001",
+        "weekday": "Thu",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF504"
+    },
+    {
+        "subject_code": "EIE4413",
+        "component_code": "LEC001",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "AG206"
+    },
+    {
+        "subject_code": "EIE4413",
+        "component_code": "TUT001",
+        "weekday": "Thu",
+        "start_time": "14:30",
+        "end_time": "15:20",
+        "venue": "BC203"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "subject_code": "AMA2111",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "18:30",
+        "end_time": "21:20",
+        "venue": "PQ305"
+    },
+    {
+        "subject_code": "AMA2111",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "18:30",
+        "end_time": "21:20",
+        "venue": "PQ305"
+    }
+]

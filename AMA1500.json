@@ -1,0 +1,26 @@
+[
+    {
+        "subject_code": "AMA1500",
+        "component_code": "LEC001",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "Y301"
+    },
+    {
+        "subject_code": "AMA1500",
+        "component_code": "TUT001",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "P309"
+    },
+    {
+        "subject_code": "AMA1500",
+        "component_code": "TUT002",
+        "weekday": "Mon",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "R508"
+    }
+]

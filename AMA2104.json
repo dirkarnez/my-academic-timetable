@@ -1,0 +1,34 @@
+[
+    {
+        "subject_code": "AMA2104",
+        "component_code": "LEC001",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "R902"
+    },
+    {
+        "subject_code": "AMA2104",
+        "component_code": "TUT001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "U208"
+    },
+    {
+        "subject_code": "AMA2104",
+        "component_code": "LEC001",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "R902"
+    },
+    {
+        "subject_code": "AMA2104",
+        "component_code": "TUT001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "U208"
+    }
+]

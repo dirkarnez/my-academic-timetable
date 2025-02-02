@@ -15,7 +15,7 @@ function getNearestAncestorByTagName(htmlElementNode, tagName) {
 }
 
 function titleCase(str) {
-    str
+    return str
     .toLowerCase()
     .split(/\s+/)
     .map(a => a.charAt(0).toUpperCase() + a.slice(1))
@@ -25,6 +25,7 @@ function titleCase(str) {
 
 const TD_SUBJECT_CODE_INDEX = 0;
 const TD_SUBJECT_TITLE_INDEX = 1;
+const TD_COMPONENT_CODE_INDEX = 3;
 const TD_SUBJECT_WEEKDAY_INDEX = 7;
 const TD_SUBJECT_START_TIME_INDEX = 8;
 const TD_SUBJECT_END_TIME_INDEX = 9;
@@ -50,6 +51,7 @@ const output = Array
                             {
                                 "subject_code": currentTR.children[TD_SUBJECT_CODE_INDEX].textContent.trim(),
                                 "subject_title": titleCase(currentTR.children[TD_SUBJECT_TITLE_INDEX].textContent),
+                                "component_code": currentTR.children[TD_COMPONENT_CODE_INDEX].textContent.trim(),
                                 "weekday": currentTR.children[TD_SUBJECT_WEEKDAY_INDEX].textContent.trim(),
                                 "start_time": currentTR.children[TD_SUBJECT_START_TIME_INDEX].textContent.trim(),
                                 "end_time": currentTR.children[TD_SUBJECT_END_TIME_INDEX].textContent.trim(),

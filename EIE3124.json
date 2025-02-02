@@ -1,0 +1,18 @@
+[
+    {
+        "subject_code": "EIE3124",
+        "component_code": "LEC001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CD514, CF502, FJ301"
+    },
+    {
+        "subject_code": "EIE3124",
+        "component_code": "LEC001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CD514, CF502, FJ301"
+    }
+]

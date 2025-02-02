@@ -1,0 +1,210 @@
+[
+    {
+        "subject_code": "AMA1120",
+        "component_code": "LEC001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "TU201"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT001",
+        "weekday": "Mon",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "P304"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT002",
+        "weekday": "Wed",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "QR513"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT003",
+        "weekday": "Mon",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "QR403"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT004",
+        "weekday": "Fri",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "QR610"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "LEC001",
+        "weekday": "Tue",
+        "start_time": "13:30",
+        "end_time": "15:20",
+        "venue": "ST111#"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "QR611"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT002",
+        "weekday": "Fri",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "P309"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT003",
+        "weekday": "Fri",
+        "start_time": "09:30",
+        "end_time": "10:20",
+        "venue": "P309"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT004",
+        "weekday": "Tue",
+        "start_time": "11:30",
+        "end_time": "12:20",
+        "venue": "QR404"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT005",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "Z503"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT006",
+        "weekday": "Mon",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "QR610"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "LEC001",
+        "weekday": "Thu",
+        "start_time": "16:30",
+        "end_time": "18:20",
+        "venue": "TU201"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT001",
+        "weekday": "",
+        "start_time": "",
+        "end_time": "",
+        "venue": "N/A"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT002",
+        "weekday": "Mon",
+        "start_time": "14:30",
+        "end_time": "15:20",
+        "venue": "R508"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT003",
+        "weekday": "Tue",
+        "start_time": "14:30",
+        "end_time": "15:20",
+        "venue": "R602"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT004",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "Z503"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "LEC001",
+        "weekday": "Tue",
+        "start_time": "16:30",
+        "end_time": "18:20",
+        "venue": "Z211"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT001",
+        "weekday": "Tue",
+        "start_time": "13:30",
+        "end_time": "14:20",
+        "venue": "R602"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT002",
+        "weekday": "Tue",
+        "start_time": "14:30",
+        "end_time": "15:20",
+        "venue": "Z205"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT003",
+        "weekday": "Wed",
+        "start_time": "09:30",
+        "end_time": "10:20",
+        "venue": "R602"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "LEC001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "10:20",
+        "venue": "TU201"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT001",
+        "weekday": "Wed",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "QR610"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT002",
+        "weekday": "Wed",
+        "start_time": "16:30",
+        "end_time": "17:20",
+        "venue": "QR504"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT003",
+        "weekday": "Wed",
+        "start_time": "17:30",
+        "end_time": "18:20",
+        "venue": "QR504"
+    },
+    {
+        "subject_code": "AMA1120",
+        "component_code": "TUT004",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "QR610"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "subject_code": "AMA1110",
+        "component_code": "LEC001",
+        "weekday": "Mon",
+        "start_time": "16:30",
+        "end_time": "18:20",
+        "venue": "Z205"
+    },
+    {
+        "subject_code": "AMA1110",
+        "component_code": "TUT001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "N101"
+    },
+    {
+        "subject_code": "AMA1110",
+        "component_code": "TUT002",
+        "weekday": "Thu",
+        "start_time": "10:30",
+        "end_time": "11:20",
+        "venue": "P306"
+    },
+    {
+        "subject_code": "AMA1110",
+        "component_code": "TUT003",
+        "weekday": "Fri",
+        "start_time": "15:30",
+        "end_time": "16:20",
+        "venue": "P306"
+    },
+    {
+        "subject_code": "AMA1110",
+        "component_code": "TUT004",
+        "weekday": "Thu",
+        "start_time": "14:30",
+        "end_time": "15:20",
+        "venue": "R507"
+    }
+]
