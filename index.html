@@ -252,29 +252,34 @@
             Promise.all(responseList.map(response => response.json()))
         ))
         .then(dataList => (
-            _.groupBy(_.flatten(dataList), ({ weekday }) => weekday)
+          _.groupBy(
+            _.concat(...dataList)
+              .filter(a => !!a["weekday"]), 
+            ({ weekday }) => weekday
+          )
         ))
         .then(groups => {
             const ids = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
           
-            ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+          ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
             .forEach((weekday, idx) => {
-                _
-                .uniqBy(
-                    _.sortBy(groups[weekday], [
-                        function (o) { 
-                            return parse(o["start_time"]);
-                        }
-                    ]), 
-                    a => (
-                        `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}-${a["venue"]}`
-                    )
+              if (!groups[weekday]) {
+                return;
+              }
+            
+              _.uniqBy(
+                _.sortBy(groups[weekday], [
+                  o => parse(o["start_time"])
+                ]),
+                a => (
+                  `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}-${a["venue"]}`
                 )
-                .forEach(a => {
-                    render(a, ids[idx], weekdayNumeric);
-                });
-            })
-        })
+              )
+              .forEach(a => {
+                render(a, ids[idx], idx);
+              });
+          })
+      })
     </script>
 </body>
 </html>
