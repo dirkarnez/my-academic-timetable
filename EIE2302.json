@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "EIE2302",
+        "subject_title": "Electricity And Electronics",
         "component_code": "LAB001",
         "weekday": "Wed",
         "start_time": "15:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "EIE2302",
+        "subject_title": "Electricity And Electronics",
         "component_code": "LEC001",
         "weekday": "Wed",
         "start_time": "08:30",

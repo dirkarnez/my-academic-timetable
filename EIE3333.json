@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "EIE3333",
+        "subject_title": "Data And Computer Communications",
         "component_code": "LEC001",
         "weekday": "Tue",
         "start_time": "15:30",

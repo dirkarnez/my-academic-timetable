@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "EIE3331",
+        "subject_title": "Communication Fundamentals",
         "component_code": "LAB001",
         "weekday": "Mon",
         "start_time": "15:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "EIE3331",
+        "subject_title": "Communication Fundamentals",
         "component_code": "LEC001",
         "weekday": "Thu",
         "start_time": "15:30",
@@ -17,6 +19,7 @@
     },
     {
         "subject_code": "EIE3331",
+        "subject_title": "Communication Fundamentals",
         "component_code": "LAB001",
         "weekday": "Mon",
         "start_time": "15:30",
@@ -25,6 +28,7 @@
     },
     {
         "subject_code": "EIE3331",
+        "subject_title": "Communication Fundamentals",
         "component_code": "LEC001",
         "weekday": "Thu",
         "start_time": "15:30",

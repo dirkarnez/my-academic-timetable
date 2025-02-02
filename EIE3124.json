@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "EIE3124",
+        "subject_title": "Fundamentals Of Machine Intelligence",
         "component_code": "LEC001",
         "weekday": "Fri",
         "start_time": "08:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "EIE3124",
+        "subject_title": "Fundamentals Of Machine Intelligence",
         "component_code": "LEC001",
         "weekday": "Fri",
         "start_time": "08:30",

@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "AMA2104",
+        "subject_title": "Probability And Engineering Statistics",
         "component_code": "LEC001",
         "weekday": "Mon",
         "start_time": "12:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "AMA2104",
+        "subject_title": "Probability And Engineering Statistics",
         "component_code": "TUT001",
         "weekday": "Wed",
         "start_time": "15:30",
@@ -17,6 +19,7 @@
     },
     {
         "subject_code": "AMA2104",
+        "subject_title": "Probability And Engineering Statistics",
         "component_code": "LEC001",
         "weekday": "Mon",
         "start_time": "12:30",
@@ -25,6 +28,7 @@
     },
     {
         "subject_code": "AMA2104",
+        "subject_title": "Probability And Engineering Statistics",
         "component_code": "TUT001",
         "weekday": "Wed",
         "start_time": "15:30",

@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+  <base href="/my-academic-timetable/">
+  <meta name="description" content="This is description">
+  <title>My Piano</title>
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16"> -->
+  <link rel="manifest" href="./manifest.json">
+  <!-- <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#fed049"> -->
+  <meta name="theme-color" content="#fed049">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <link
@@ -42,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Title</h1>
+        <h1>My Academic Timetable</h1>
         <div class="grid">
             <div class="col col-12">
                 <div class="grid">
@@ -122,17 +134,17 @@
             })
         }
 
-        const data = `
-        [
-            {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
-            {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"},
-            {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
-            {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"}
-        ]`;
+        // const data = `
+        // [
+        //     {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
+        //     {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"},
+        //     {"subject_code":"AMA2104","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"R902"},
+        //     {"subject_code":"AMA2104","weekday":"Wed","start_time":"15:30","end_time":"16:20","venue":"U208"}
+        // ]`;
 
-        const removeSameCourse = array => (
-            removeDuplicates(array, a => `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}`)
-        )
+        // const removeSameCourse = array => (
+        //     removeDuplicates(array, a => `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}`)
+        // )
 
         const parse = time => {
             const hM = time.split(":");
@@ -159,7 +171,7 @@
             div.classList.add("col");
             div.classList.add("col-12");
             div.classList.add("course");
-            div.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]}(${a["component_code"]})`;
+            div.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
             document.getElementById(id).parentNode.appendChild(div);
         }
 
@@ -186,7 +198,8 @@
             _.groupBy(_.flatten(dataList), ({ weekday }) => weekday)
         ))
         .then(groups => {
-            Array.of("Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
+
+            ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
             .forEach(key => {
                 _
                 .uniqBy(
@@ -196,7 +209,7 @@
                         }
                     ]), 
                     a => (
-                        `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}`
+                        `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}-${a["venue"]}`
                     )
                 )
                 .forEach(a => {
@@ -204,28 +217,6 @@
                 });
             })
         })
-
-       
-    
-
-
-        // .forEach(course => {
-        //     // addLesson(1, course["start_time"].getHour(), course["start_time"].getMinutes(), course["end_time"].getHour(), course["end_time"].getMinutes());
-        // })
-        // removeSameCourse(result["Tue"]).sort(compareStartTime)
-        // removeSameCourse(result["Wed"]).sort(compareStartTime)
-        // removeSameCourse(result["Thu"]).sort(compareStartTime)
-        // removeSameCourse(result["Fri"]).sort(compareStartTime)
-        // removeSameCourse(result["Sat"]).sort(compareStartTime)
-        debugger;
-        
-
-
-
-
-        
-        
-
     </script>
 </body>
 </html>

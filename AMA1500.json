@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "AMA1500",
+        "subject_title": "Foundation Mathematics For Accounting And Finance",
         "component_code": "LEC001",
         "weekday": "Fri",
         "start_time": "12:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "AMA1500",
+        "subject_title": "Foundation Mathematics For Accounting And Finance",
         "component_code": "TUT001",
         "weekday": "Thu",
         "start_time": "15:30",
@@ -17,6 +19,7 @@
     },
     {
         "subject_code": "AMA1500",
+        "subject_title": "Foundation Mathematics For Accounting And Finance",
         "component_code": "TUT002",
         "weekday": "Mon",
         "start_time": "10:30",

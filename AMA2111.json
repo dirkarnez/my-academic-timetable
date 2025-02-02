@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "AMA2111",
+        "subject_title": "Mathematics I",
         "component_code": "LTL001",
         "weekday": "Fri",
         "start_time": "18:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "AMA2111",
+        "subject_title": "Mathematics I",
         "component_code": "LTL001",
         "weekday": "Fri",
         "start_time": "18:30",

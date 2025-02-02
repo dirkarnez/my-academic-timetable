@@ -1,6 +1,7 @@
 [
     {
         "subject_code": "EIE3105",
+        "subject_title": "Integrated Project",
         "component_code": "LAB001",
         "weekday": "Wed",
         "start_time": "08:30",
@@ -9,6 +10,7 @@
     },
     {
         "subject_code": "EIE3105",
+        "subject_title": "Integrated Project",
         "component_code": "LEC001",
         "weekday": "Thu",
         "start_time": "10:30",

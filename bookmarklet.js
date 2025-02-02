@@ -18,7 +18,7 @@ function titleCase(str) {
     return str
     .toLowerCase()
     .split(/\s+/)
-    .map(a => a.charAt(0).toUpperCase() + a.slice(1))
+    .map(a => ["I", "II", "III", "IV", "V"].some(roman => roman == a.toUpperCase()) ? a.toUpperCase() : a.charAt(0).toUpperCase() + a.slice(1))
     .join(String.fromCharCode(0x20))
     .trim()
 }
