@@ -211,8 +211,12 @@
             if (courseDate.getDay() == now.getDay() && courseDate.getTime() > now.getTime()) {
               div.style.color = "cyan";
             }
-          
-            div.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
+
+            const a = document.createElement("a");
+            a.setAttribute('href', `https://github.com/dirkarnez/${a["subject_code"]}`);
+            a.setAttribute('target', "_blank");
+            a.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
+            div.appendChild(a);
             document.getElementById(id).parentNode.appendChild(div);
         }
 
