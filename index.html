@@ -212,11 +212,11 @@
               div.style.color = "cyan";
             }
 
-            const a = document.createElement("a");
-            a.setAttribute('href', `https://github.com/dirkarnez/${a["subject_code"]}`);
-            a.setAttribute('target', "_blank");
-            a.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
-            div.appendChild(a);
+            const ahref = document.createElement("a");
+            ahref.setAttribute('href', `https://github.com/dirkarnez/${a["subject_code"]}`);
+            ahref.setAttribute('target', "_blank");
+            ahref.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
+            div.appendChild(ahref);
             document.getElementById(id).parentNode.appendChild(div);
         }
 
