@@ -215,8 +215,10 @@
             const ahref = document.createElement("a");
             ahref.setAttribute('href', `https://github.com/dirkarnez/${a["subject_code"]}`);
             ahref.setAttribute('target', "_blank");
-            ahref.innerText = `${a["start_time"]}-${a["end_time"]} ${a["subject_code"]} (${a["component_code"]}) - ${a["subject_title"]}`;
+            ahref.innerText = `${a["subject_code"]}`;
+            div.appendChild(document.createTextNode(`${a["start_time"]}-${a["end_time"]}`));
             div.appendChild(ahref);
+            div.appendChild(document.createTextNode(`(${a["component_code"]}) - ${a["subject_title"]}`));
             document.getElementById(id).parentNode.appendChild(div);
         }
 
