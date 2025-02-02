@@ -202,7 +202,7 @@
             })
         }
         
-        function render(a, id) {
+        function render(a, id, weekdayNumeric) {
             const hM = a["start_time"].split(":");
           
             const now = new Date();
@@ -210,6 +210,7 @@
             const courseDate = new Date();
             courseDate.setHours(hM[0]);
             courseDate.setMinutes(hM[1]);
+            courseDate.setDate(date.getDate() + ((weekdayNumeric - new Date().getDay()) % 7));
           
             const div = document.createElement("div");
             div.classList.add("col");
@@ -254,9 +255,9 @@
             _.groupBy(_.flatten(dataList), ({ weekday }) => weekday)
         ))
         .then(groups => {
-            const ids = ["mon", "tue", "wed", "thu", "fri", "sat"];
+            const ids = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
           
-            ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+            ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
             .forEach((weekday, idx) => {
                 _
                 .uniqBy(
@@ -270,7 +271,7 @@
                     )
                 )
                 .forEach(a => {
-                    render(a, ids[idx]);
+                    render(a, ids[idx], weekdayNumeric);
                 });
             })
         })
