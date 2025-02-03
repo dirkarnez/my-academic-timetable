@@ -1,1 +1,11 @@
-[{"subject_code":"EIE4102","subject_title":"Ip Networks","component_code":"LTL001","weekday":"Mon","start_time":"15:30","end_time":"18:20","venue":"HJ202"}]
+[
+    {
+        "subject_code": "EIE4102",
+        "subject_title": "Ip Networks",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "HJ202"
+    }
+]

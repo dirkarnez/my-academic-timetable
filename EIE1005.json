@@ -1,1 +1,92 @@
-[{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB001","weekday":"Wed","start_time":"12:30","end_time":"14:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB002","weekday":"Mon","start_time":"14:30","end_time":"16:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB003","weekday":"Fri","start_time":"12:30","end_time":"14:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB004","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LEC001","weekday":"Mon","start_time":"16:30","end_time":"18:20","venue":"Z209"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB001","weekday":"Wed","start_time":"12:30","end_time":"14:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB002","weekday":"Mon","start_time":"14:30","end_time":"16:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB003","weekday":"Fri","start_time":"12:30","end_time":"14:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LAB004","weekday":"Mon","start_time":"12:30","end_time":"14:20","venue":"CF105"},{"subject_code":"EIE1005","subject_title":"Fundamental Ai And Data Analytics","component_code":"LEC001","weekday":"Mon","start_time":"16:30","end_time":"18:20","venue":"Z209"}]
+[
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB002",
+        "weekday": "Mon",
+        "start_time": "14:30",
+        "end_time": "16:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB003",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB004",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LEC001",
+        "weekday": "Mon",
+        "start_time": "16:30",
+        "end_time": "18:20",
+        "venue": "Z209"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB002",
+        "weekday": "Mon",
+        "start_time": "14:30",
+        "end_time": "16:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB003",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LAB004",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "CF105"
+    },
+    {
+        "subject_code": "EIE1005",
+        "subject_title": "Fundamental Ai And Data Analytics",
+        "component_code": "LEC001",
+        "weekday": "Mon",
+        "start_time": "16:30",
+        "end_time": "18:20",
+        "venue": "Z209"
+    }
+]
