@@ -1,0 +1,11 @@
+[
+    {
+        "subject_code": "EEE513",
+        "subject_title": "Introduction To Quantum Computing",
+        "component_code": "LEC001",
+        "weekday": "Mon",
+        "start_time": "18:30",
+        "end_time": "21:20",
+        "venue": "Z503"
+    }
+]
