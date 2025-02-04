@@ -1,1 +1,20 @@
-[{"subject_code":"EEE2002","subject_title":"Electrical Energy Systems Fundamentals","component_code":"LAB001","weekday":"Fri","start_time":"12:30","end_time":"15:20","venue":"U301-Z5"},{"subject_code":"EEE2002","subject_title":"Electrical Energy Systems Fundamentals","component_code":"LEC001","weekday":"Wed","start_time":"12:30","end_time":"14:20","venue":"Y302"}]
+[
+    {
+        "subject_code": "EEE2002",
+        "subject_title": "Electrical Energy Systems Fundamentals",
+        "component_code": "LAB001",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "U301-Z5"
+    },
+    {
+        "subject_code": "EEE2002",
+        "subject_title": "Electrical Energy Systems Fundamentals",
+        "component_code": "LEC001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "14:20",
+        "venue": "Y302"
+    }
+]

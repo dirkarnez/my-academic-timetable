@@ -1,1 +1,29 @@
-[{"subject_code":"EIE3123","subject_title":"Dynamic Electronic Systems","component_code":"LAB001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"CF005, CF105, CF502"},{"subject_code":"EIE3123","subject_title":"Dynamic Electronic Systems","component_code":"LEC001","weekday":"Fri","start_time":"13:30","end_time":"15:20","venue":"FJ304"},{"subject_code":"EIE3123","subject_title":"Dynamic Electronic Systems","component_code":"TUT001","weekday":"Tue","start_time":"09:30","end_time":"10:20","venue":"FJ304"}]
+[
+    {
+        "subject_code": "EIE3123",
+        "subject_title": "Dynamic Electronic Systems",
+        "component_code": "LAB001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF005, CF105, CF502"
+    },
+    {
+        "subject_code": "EIE3123",
+        "subject_title": "Dynamic Electronic Systems",
+        "component_code": "LEC001",
+        "weekday": "Fri",
+        "start_time": "13:30",
+        "end_time": "15:20",
+        "venue": "FJ304"
+    },
+    {
+        "subject_code": "EIE3123",
+        "subject_title": "Dynamic Electronic Systems",
+        "component_code": "TUT001",
+        "weekday": "Tue",
+        "start_time": "09:30",
+        "end_time": "10:20",
+        "venue": "FJ304"
+    }
+]

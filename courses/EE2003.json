@@ -1,1 +1,38 @@
-[{"subject_code":"EE2003","subject_title":"Electronics","component_code":"LAB001","weekday":"Mon","start_time":"08:30","end_time":"11:20","venue":"EF402"},{"subject_code":"EE2003","subject_title":"Electronics","component_code":"LEC001","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"HJ305"},{"subject_code":"EE2003","subject_title":"Electronics","component_code":"LAB001","weekday":"Mon","start_time":"08:30","end_time":"11:20","venue":"EF402"},{"subject_code":"EE2003","subject_title":"Electronics","component_code":"LEC001","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"HJ305"}]
+[
+    {
+        "subject_code": "EE2003",
+        "subject_title": "Electronics",
+        "component_code": "LAB001",
+        "weekday": "Mon",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "EF402"
+    },
+    {
+        "subject_code": "EE2003",
+        "subject_title": "Electronics",
+        "component_code": "LEC001",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "HJ305"
+    },
+    {
+        "subject_code": "EE2003",
+        "subject_title": "Electronics",
+        "component_code": "LAB001",
+        "weekday": "Mon",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "EF402"
+    },
+    {
+        "subject_code": "EE2003",
+        "subject_title": "Electronics",
+        "component_code": "LEC001",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "HJ305"
+    }
+]
