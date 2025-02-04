@@ -232,27 +232,15 @@
             document.getElementById(id).parentNode.appendChild(div);
         }
 
-        Promise.all([
-          fetch("AMA1110.json"),
-          fetch("AMA1120.json"),
-          fetch("AMA1500.json"),
-          fetch("AMA2104.json"),
-          fetch("AMA2111.json"),
-          fetch("AMA2112.json"),
-          fetch("AMA2131.json"),
-          fetch("COMP2322.json"),
-          fetch("EIE1003.json"),
-          fetch("EIE1005.json"),
-          fetch("EIE2302.json"),
-          fetch("EIE3103.json"),
-          fetch("EIE3105.json"),
-          fetch("EIE3124.json"),
-          fetch("EIE3331.json"),
-          fetch("EIE3333.json"),
-          fetch("EIE4102.json"),
-          fetch("EIE4116.json"),
-          fetch("EIE4413.json")
-        ])
+        fetch("courses.json")
+        .then(response => response.json())
+        .then(coursesJSON => (
+          Promise.all(
+            coursesJSON.map(courseJSON => (
+              fetch(courseJSON)
+            )
+          ))
+        ))
         .then(responseList => (
             Promise.all(responseList.map(response => response.json()))
         ))
