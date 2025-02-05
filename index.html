@@ -228,7 +228,7 @@
             ahref.innerText = `${a["subject_code"]}`;
             div.appendChild(document.createTextNode(`${a["start_time"]}-${a["end_time"]}`));
             div.appendChild(ahref);
-            div.appendChild(document.createTextNode(`(${a["component_code"]}) - ${a["subject_title"]}`));
+            div.appendChild(document.createTextNode(`(${a["component_code"]}) - ${a["subject_title"]} ${a["venue"]}`));
             document.getElementById(id).parentNode.appendChild(div);
         }
 
