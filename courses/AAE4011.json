@@ -1,1 +1,29 @@
-[{"subject_code":"AAE4011","subject_title":"Artificial Intelligence In Unmanned Autonomous Systems","component_code":"LTL001","weekday":"Fri","start_time":"08:30","end_time":"11:20","venue":"FJ303"},{"subject_code":"AAE4011","subject_title":"Artificial Intelligence In Unmanned Autonomous Systems","component_code":"LTL001","weekday":"Fri","start_time":"08:30","end_time":"11:20","venue":"FJ303"},{"subject_code":"AAE4011","subject_title":"Artificial Intelligence In Unmanned Autonomous Systems","component_code":"LTL001","weekday":"Fri","start_time":"08:30","end_time":"11:20","venue":"FJ303"}]
+[
+    {
+        "subject_code": "AAE4011",
+        "subject_title": "Artificial Intelligence In Unmanned Autonomous Systems",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "FJ303"
+    },
+    {
+        "subject_code": "AAE4011",
+        "subject_title": "Artificial Intelligence In Unmanned Autonomous Systems",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "FJ303"
+    },
+    {
+        "subject_code": "AAE4011",
+        "subject_title": "Artificial Intelligence In Unmanned Autonomous Systems",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "FJ303"
+    }
+]

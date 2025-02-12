@@ -1,1 +1,38 @@
-[{"subject_code":"AAE2005","subject_title":"Electrics And Electronic For Aeronautical Engineering","component_code":"LTL001","weekday":"Mon","start_time":"08:30","end_time":"11:20","venue":"BC203"},{"subject_code":"AAE2005","subject_title":"Electrics And Electronic For Aeronautical Engineering","component_code":"TUT001","weekday":"Fri","start_time":"08:30","end_time":"11:20","venue":"BC203"},{"subject_code":"AAE2005","subject_title":"Electrics And Electronic For Aeronautical Engineering","component_code":"LTL001","weekday":"Mon","start_time":"08:30","end_time":"11:20","venue":"BC203"},{"subject_code":"AAE2005","subject_title":"Electrics And Electronic For Aeronautical Engineering","component_code":"TUT001","weekday":"Fri","start_time":"08:30","end_time":"11:20","venue":"BC203"}]
+[
+    {
+        "subject_code": "AAE2005",
+        "subject_title": "Electrics And Electronic For Aeronautical Engineering",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC203"
+    },
+    {
+        "subject_code": "AAE2005",
+        "subject_title": "Electrics And Electronic For Aeronautical Engineering",
+        "component_code": "TUT001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC203"
+    },
+    {
+        "subject_code": "AAE2005",
+        "subject_title": "Electrics And Electronic For Aeronautical Engineering",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC203"
+    },
+    {
+        "subject_code": "AAE2005",
+        "subject_title": "Electrics And Electronic For Aeronautical Engineering",
+        "component_code": "TUT001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC203"
+    }
+]

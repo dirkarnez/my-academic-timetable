@@ -1,1 +1,56 @@
-[{"subject_code":"AAE2003","subject_title":"Introduction To Aircraft Systems","component_code":"LTL001","weekday":"Fri","start_time":"12:30","end_time":"15:20","venue":"FJ301"},{"subject_code":"AAE2003","subject_title":"Introduction To Aircraft Systems","component_code":"TUT001","weekday":"","start_time":"","end_time":"","venue":"N/A"},{"subject_code":"AAE2003","subject_title":"Introduction To Aircraft Systems","component_code":"LTL001","weekday":"Fri","start_time":"12:30","end_time":"15:20","venue":"FJ301"},{"subject_code":"AAE2003","subject_title":"Introduction To Aircraft Systems","component_code":"TUT001","weekday":"","start_time":"","end_time":"","venue":"N/A"},{"subject_code":"AAE2003","subject_title":"Introduction To Aircraft Systems","component_code":"LTL001","weekday":"Fri","start_time":"12:30","end_time":"15:20","venue":"FJ301"},{"subject_code":"AAE2003","subject_title":"Introduction To Aircraft Systems","component_code":"TUT001","weekday":"","start_time":"","end_time":"","venue":"N/A"}]
+[
+    {
+        "subject_code": "AAE2003",
+        "subject_title": "Introduction To Aircraft Systems",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "FJ301"
+    },
+    {
+        "subject_code": "AAE2003",
+        "subject_title": "Introduction To Aircraft Systems",
+        "component_code": "TUT001",
+        "weekday": "",
+        "start_time": "",
+        "end_time": "",
+        "venue": "N/A"
+    },
+    {
+        "subject_code": "AAE2003",
+        "subject_title": "Introduction To Aircraft Systems",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "FJ301"
+    },
+    {
+        "subject_code": "AAE2003",
+        "subject_title": "Introduction To Aircraft Systems",
+        "component_code": "TUT001",
+        "weekday": "",
+        "start_time": "",
+        "end_time": "",
+        "venue": "N/A"
+    },
+    {
+        "subject_code": "AAE2003",
+        "subject_title": "Introduction To Aircraft Systems",
+        "component_code": "LTL001",
+        "weekday": "Fri",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "FJ301"
+    },
+    {
+        "subject_code": "AAE2003",
+        "subject_title": "Introduction To Aircraft Systems",
+        "component_code": "TUT001",
+        "weekday": "",
+        "start_time": "",
+        "end_time": "",
+        "venue": "N/A"
+    }
+]

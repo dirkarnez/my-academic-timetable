@@ -1,1 +1,29 @@
-[{"subject_code":"AAE4015","subject_title":"Advanced Accident And Hazards Analysis With Big Data In Aviation","component_code":"LTL001","weekday":"Wed","start_time":"12:30","end_time":"15:20","venue":"QR403"},{"subject_code":"AAE4015","subject_title":"Advanced Accident And Hazards Analysis With Big Data In Aviation","component_code":"LTL001","weekday":"Wed","start_time":"12:30","end_time":"15:20","venue":"QR403"},{"subject_code":"AAE4015","subject_title":"Advanced Accident And Hazards Analysis With Big Data In Aviation","component_code":"LTL001","weekday":"Wed","start_time":"12:30","end_time":"15:20","venue":"QR403"}]
+[
+    {
+        "subject_code": "AAE4015",
+        "subject_title": "Advanced Accident And Hazards Analysis With Big Data In Aviation",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "QR403"
+    },
+    {
+        "subject_code": "AAE4015",
+        "subject_title": "Advanced Accident And Hazards Analysis With Big Data In Aviation",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "QR403"
+    },
+    {
+        "subject_code": "AAE4015",
+        "subject_title": "Advanced Accident And Hazards Analysis With Big Data In Aviation",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "QR403"
+    }
+]

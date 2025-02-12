@@ -1,1 +1,29 @@
-[{"subject_code":"AAE3010","subject_title":"Airline Operations","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"BC202"},{"subject_code":"AAE3010","subject_title":"Airline Operations","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"BC202"},{"subject_code":"AAE3010","subject_title":"Airline Operations","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"BC202"}]
+[
+    {
+        "subject_code": "AAE3010",
+        "subject_title": "Airline Operations",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC202"
+    },
+    {
+        "subject_code": "AAE3010",
+        "subject_title": "Airline Operations",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC202"
+    },
+    {
+        "subject_code": "AAE3010",
+        "subject_title": "Airline Operations",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "BC202"
+    }
+]

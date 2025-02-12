@@ -1,1 +1,281 @@
-[{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"TRN001","weekday":"Fri","start_time":"08:30","end_time":"11:20","venue":"W207"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"TRN002","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W207"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"TRN003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W207"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W502a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W402c"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W402-Z1, W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W402a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS001","weekday":"Tue","start_time":"15:30","end_time":"18:20","venue":"W502a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W502g"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W402c"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W402-Z1, W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W402a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS002","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"W502g"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W502g"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W402c"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W402-Z1, W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W402a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS003","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"W502g"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W502a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W402c"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W402-Z1, W402-Z2"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W402a"},{"subject_code":"AAE2101","subject_title":"Engineering Communication And Fundamentals","component_code":"WKS004","weekday":"Tue","start_time":"12:30","end_time":"15:20","venue":"W502a"}]
+[
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "TRN001",
+        "weekday": "Fri",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "W207"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "TRN002",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W207"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "TRN003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W207"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W502a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402c"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402-Z1, W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS001",
+        "weekday": "Tue",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W502a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W502g"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402c"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402-Z1, W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS002",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W502g"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W502g"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402c"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402-Z1, W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W402a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS003",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "W502g"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W502a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402c"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402-Z1, W402-Z2"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W402a"
+    },
+    {
+        "subject_code": "AAE2101",
+        "subject_title": "Engineering Communication And Fundamentals",
+        "component_code": "WKS004",
+        "weekday": "Tue",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "W502a"
+    }
+]

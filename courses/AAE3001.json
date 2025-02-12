@@ -1,1 +1,74 @@
-[{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"Z414"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"TUT001","weekday":"Fri","start_time":"19:30","end_time":"21:20","venue":"R602"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"Z414"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"TUT001","weekday":"Fri","start_time":"19:30","end_time":"21:20","venue":"R602"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"Z414"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"TUT001","weekday":"Fri","start_time":"19:30","end_time":"21:20","venue":"R602"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"LTL001","weekday":"Wed","start_time":"08:30","end_time":"11:20","venue":"Z414"},{"subject_code":"AAE3001","subject_title":"Fundamentals Of Aerodynamics","component_code":"TUT001","weekday":"Fri","start_time":"19:30","end_time":"21:20","venue":"R602"}]
+[
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "Z414"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "TUT001",
+        "weekday": "Fri",
+        "start_time": "19:30",
+        "end_time": "21:20",
+        "venue": "R602"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "Z414"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "TUT001",
+        "weekday": "Fri",
+        "start_time": "19:30",
+        "end_time": "21:20",
+        "venue": "R602"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "Z414"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "TUT001",
+        "weekday": "Fri",
+        "start_time": "19:30",
+        "end_time": "21:20",
+        "venue": "R602"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "Z414"
+    },
+    {
+        "subject_code": "AAE3001",
+        "subject_title": "Fundamentals Of Aerodynamics",
+        "component_code": "TUT001",
+        "weekday": "Fri",
+        "start_time": "19:30",
+        "end_time": "21:20",
+        "venue": "R602"
+    }
+]

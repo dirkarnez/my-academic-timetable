@@ -1,1 +1,11 @@
-[{"subject_code":"AAE1BN01","subject_title":"Introduction To Aviation Industry","component_code":"LTL001","weekday":"Mon","start_time":"18:30","end_time":"21:20","venue":"HJ305"}]
+[
+    {
+        "subject_code": "AAE1BN01",
+        "subject_title": "Introduction To Aviation Industry",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "18:30",
+        "end_time": "21:20",
+        "venue": "HJ305"
+    }
+]

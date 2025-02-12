@@ -1,1 +1,11 @@
-[{"subject_code":"AAE4109","subject_title":"Aircraft Maintenance Practices","component_code":"LTL001","weekday":"Thu","start_time":"12:30","end_time":"15:20","venue":"DE401"}]
+[
+    {
+        "subject_code": "AAE4109",
+        "subject_title": "Aircraft Maintenance Practices",
+        "component_code": "LTL001",
+        "weekday": "Thu",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "DE401"
+    }
+]

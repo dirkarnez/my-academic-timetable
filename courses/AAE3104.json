@@ -1,1 +1,83 @@
-[{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN001","weekday":"Fri","start_time":"14:30","end_time":"18:20","venue":"W101"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN001","weekday":"Fri","start_time":"14:30","end_time":"18:20","venue":"W001f"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN001","weekday":"Mon","start_time":"09:30","end_time":"11:20","venue":"W001f"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN002","weekday":"Thu","start_time":"14:30","end_time":"18:20","venue":"W101"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN002","weekday":"Thu","start_time":"14:30","end_time":"18:20","venue":"W001f"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN003","weekday":"Tue","start_time":"08:30","end_time":"12:20","venue":"W101"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN003","weekday":"Tue","start_time":"08:30","end_time":"12:20","venue":"W001f"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN001","weekday":"Mon","start_time":"14:30","end_time":"18:20","venue":"W101"},{"subject_code":"AAE3104","subject_title":"Aircraft Manufacturing And Maintenance Practice","component_code":"TRN001","weekday":"Mon","start_time":"14:30","end_time":"18:20","venue":"W001f"}]
+[
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN001",
+        "weekday": "Fri",
+        "start_time": "14:30",
+        "end_time": "18:20",
+        "venue": "W101"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN001",
+        "weekday": "Fri",
+        "start_time": "14:30",
+        "end_time": "18:20",
+        "venue": "W001f"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN001",
+        "weekday": "Mon",
+        "start_time": "09:30",
+        "end_time": "11:20",
+        "venue": "W001f"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN002",
+        "weekday": "Thu",
+        "start_time": "14:30",
+        "end_time": "18:20",
+        "venue": "W101"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN002",
+        "weekday": "Thu",
+        "start_time": "14:30",
+        "end_time": "18:20",
+        "venue": "W001f"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN003",
+        "weekday": "Tue",
+        "start_time": "08:30",
+        "end_time": "12:20",
+        "venue": "W101"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN003",
+        "weekday": "Tue",
+        "start_time": "08:30",
+        "end_time": "12:20",
+        "venue": "W001f"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN001",
+        "weekday": "Mon",
+        "start_time": "14:30",
+        "end_time": "18:20",
+        "venue": "W101"
+    },
+    {
+        "subject_code": "AAE3104",
+        "subject_title": "Aircraft Manufacturing And Maintenance Practice",
+        "component_code": "TRN001",
+        "weekday": "Mon",
+        "start_time": "14:30",
+        "end_time": "18:20",
+        "venue": "W001f"
+    }
+]

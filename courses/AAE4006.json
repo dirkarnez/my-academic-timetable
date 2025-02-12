@@ -1,1 +1,74 @@
-[{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LAB001","weekday":"Sat","start_time":"08:30","end_time":"11:20","venue":"CF304"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LTL001","weekday":"Wed","start_time":"15:30","end_time":"18:20","venue":"BC402"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LAB001","weekday":"Sat","start_time":"08:30","end_time":"11:20","venue":"CF304"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LTL001","weekday":"Wed","start_time":"15:30","end_time":"18:20","venue":"BC402"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LAB001","weekday":"Sat","start_time":"08:30","end_time":"11:20","venue":"CF304"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LTL001","weekday":"Wed","start_time":"15:30","end_time":"18:20","venue":"BC402"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LAB001","weekday":"Sat","start_time":"08:30","end_time":"11:20","venue":"CF304"},{"subject_code":"AAE4006","subject_title":"Flight Mechanics And Control Systems","component_code":"LTL001","weekday":"Wed","start_time":"15:30","end_time":"18:20","venue":"BC402"}]
+[
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LAB001",
+        "weekday": "Sat",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF304"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "BC402"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LAB001",
+        "weekday": "Sat",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF304"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "BC402"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LAB001",
+        "weekday": "Sat",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF304"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "BC402"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LAB001",
+        "weekday": "Sat",
+        "start_time": "08:30",
+        "end_time": "11:20",
+        "venue": "CF304"
+    },
+    {
+        "subject_code": "AAE4006",
+        "subject_title": "Flight Mechanics And Control Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "BC402"
+    }
+]

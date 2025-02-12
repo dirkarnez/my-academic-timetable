@@ -1,1 +1,29 @@
-[{"subject_code":"AAE3003","subject_title":"Aircraft Propulsion Systems","component_code":"LTL001","weekday":"Wed","start_time":"12:30","end_time":"15:20","venue":"BC302"},{"subject_code":"AAE3003","subject_title":"Aircraft Propulsion Systems","component_code":"LTL001","weekday":"Wed","start_time":"12:30","end_time":"15:20","venue":"BC302"},{"subject_code":"AAE3003","subject_title":"Aircraft Propulsion Systems","component_code":"LTL001","weekday":"Wed","start_time":"12:30","end_time":"15:20","venue":"BC302"}]
+[
+    {
+        "subject_code": "AAE3003",
+        "subject_title": "Aircraft Propulsion Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "BC302"
+    },
+    {
+        "subject_code": "AAE3003",
+        "subject_title": "Aircraft Propulsion Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "BC302"
+    },
+    {
+        "subject_code": "AAE3003",
+        "subject_title": "Aircraft Propulsion Systems",
+        "component_code": "LTL001",
+        "weekday": "Wed",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "BC302"
+    }
+]

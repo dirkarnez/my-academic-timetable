@@ -1,1 +1,29 @@
-[{"subject_code":"AAE6104","subject_title":"Advanced High Speed Propulsion","component_code":"LTL001","weekday":"Mon","start_time":"15:30","end_time":"18:20","venue":"SHA102"},{"subject_code":"AAE6104","subject_title":"Advanced High Speed Propulsion","component_code":"LTL001","weekday":"Mon","start_time":"15:30","end_time":"18:20","venue":"SHA102"},{"subject_code":"AAE6104","subject_title":"Advanced High Speed Propulsion","component_code":"LTL001","weekday":"Mon","start_time":"15:30","end_time":"18:20","venue":"SHA102"}]
+[
+    {
+        "subject_code": "AAE6104",
+        "subject_title": "Advanced High Speed Propulsion",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "SHA102"
+    },
+    {
+        "subject_code": "AAE6104",
+        "subject_title": "Advanced High Speed Propulsion",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "SHA102"
+    },
+    {
+        "subject_code": "AAE6104",
+        "subject_title": "Advanced High Speed Propulsion",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "SHA102"
+    }
+]

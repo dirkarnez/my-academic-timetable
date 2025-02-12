@@ -1,1 +1,29 @@
-[{"subject_code":"AAE5103","subject_title":"Artificial Intelligence In Aviation Industry","component_code":"LTL001","weekday":"Mon","start_time":"12:30","end_time":"15:20","venue":"N103"},{"subject_code":"AAE5103","subject_title":"Artificial Intelligence In Aviation Industry","component_code":"LTL001","weekday":"Mon","start_time":"12:30","end_time":"15:20","venue":"N103"},{"subject_code":"AAE5103","subject_title":"Artificial Intelligence In Aviation Industry","component_code":"LTL001","weekday":"Mon","start_time":"12:30","end_time":"15:20","venue":"N103"}]
+[
+    {
+        "subject_code": "AAE5103",
+        "subject_title": "Artificial Intelligence In Aviation Industry",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "N103"
+    },
+    {
+        "subject_code": "AAE5103",
+        "subject_title": "Artificial Intelligence In Aviation Industry",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "N103"
+    },
+    {
+        "subject_code": "AAE5103",
+        "subject_title": "Artificial Intelligence In Aviation Industry",
+        "component_code": "LTL001",
+        "weekday": "Mon",
+        "start_time": "12:30",
+        "end_time": "15:20",
+        "venue": "N103"
+    }
+]

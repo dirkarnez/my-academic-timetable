@@ -1,1 +1,29 @@
-[{"subject_code":"AAE4009","subject_title":"Data Science And Data-driven Optimisation In Airline And Airport Operations","component_code":"LTL001","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"Y306"},{"subject_code":"AAE4009","subject_title":"Data Science And Data-driven Optimisation In Airline And Airport Operations","component_code":"LTL001","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"Y306"},{"subject_code":"AAE4009","subject_title":"Data Science And Data-driven Optimisation In Airline And Airport Operations","component_code":"LTL001","weekday":"Thu","start_time":"15:30","end_time":"18:20","venue":"Y306"}]
+[
+    {
+        "subject_code": "AAE4009",
+        "subject_title": "Data Science And Data-driven Optimisation In Airline And Airport Operations",
+        "component_code": "LTL001",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "Y306"
+    },
+    {
+        "subject_code": "AAE4009",
+        "subject_title": "Data Science And Data-driven Optimisation In Airline And Airport Operations",
+        "component_code": "LTL001",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "Y306"
+    },
+    {
+        "subject_code": "AAE4009",
+        "subject_title": "Data Science And Data-driven Optimisation In Airline And Airport Operations",
+        "component_code": "LTL001",
+        "weekday": "Thu",
+        "start_time": "15:30",
+        "end_time": "18:20",
+        "venue": "Y306"
+    }
+]
