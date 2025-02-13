@@ -8,6 +8,26 @@
   <base href="/my-academic-timetable/">
   <meta name="description" content="This is description">
   <title>My Academic Timetable</title>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .ready
+        .then((registration) => {
+          debugger;
+        });
+      
+      navigator.serviceWorker
+        .register('./sw.js')
+        .then(registration => {
+          console.log('Service Worker registered');
+          debugger;
+        })
+        .catch(error => {
+          console.error('Service Worker registration failed:', error);
+        });
+    }
+  </script>
   <!-- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16"> -->
