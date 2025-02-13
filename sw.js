@@ -11,7 +11,7 @@ workbox.routing.registerRoute(
   ({ url }) => {
     return url.pathname.startsWith('/my-academic-timetable/')
       || url.host === 'cdn.jsdelivr.net'
-      || url.href.endsWith("better-cue-parser.0.3.1.min.js")
+      || url.host === 'cdnjs.cloudflare.com'
   },
   new workbox.strategies.NetworkFirst({
     cacheName: 'my-cache',
