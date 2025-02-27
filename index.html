@@ -155,6 +155,8 @@
     <script>
         const timeTable = document.getElementById("timetable");
 
+        const favourites = ["EIE3124"];
+
         const addLesson = (weekDay, startHours, startMinutes, endHours, endMinutes) => {
             const epochStart = new Date(Date.UTC(0));
             epochStart.setHours(startHours);
@@ -242,6 +244,10 @@
             div.classList.add("col");
             div.classList.add("col-12");
             div.classList.add("course");
+
+            if (favourites.some(item => item == a["subject_code"])) {
+              div.style.textDecoration = "underline";
+            }
 
             // highlight coming-up courses for today
             if (
