@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
   <base href="/my-academic-timetable/">
-  <meta name="description" content="This is description">
+  <meta name="description" content="This is my academic timetable">
   <title>My Academic Timetable</title>
 
   <script>
@@ -177,7 +177,6 @@
             const durationInHours = (epochEnd - epochStart) / 60 / 60 / 1000;
 
             const rowsNeeded = durationInHours / 0.5;
-
         };
 
         function removeDuplicates(array, uniqueIdFunction) {
@@ -253,15 +252,24 @@
             div.classList.add("col-12");
             div.classList.add("course");
 
-            if (favourites.some(item => item == a["subject_code"])) {
-              div.style.color = "chartreuse";
-            }
+
+            const isFavourite = favourites.some(item => item == a["subject_code"]);
+
+            const isCurrentOrComingUp = 
+              (courseStartTime.getDay() == now.getDay() && courseEndTime.getDay() == now.getDay()) && 
+              (courseEndTime.getTime() > now.getTime());
 
             // highlight coming-up courses for today
-            if (
-              (courseStartTime.getDay() == now.getDay() && courseEndTime.getDay() == now.getDay()) 
-              && (courseEndTime.getTime() > now.getTime())) {
-              div.style.color = "cyan";
+            if (isCurrentOrComingUp && !isFavourite) {
+              div.style.color = "#00FFFF" // "cyan";
+            }
+
+            if (!isCurrentOrComingUp && isFavourite) {
+              div.style.color = "#7FFF00"; // "chartreuse"
+            }
+
+            if (isCurrentOrComingUp && isFavourite) {
+              div.style.color = "#ff7f7f";
             }
 
             const ahref = document.createElement("a");
