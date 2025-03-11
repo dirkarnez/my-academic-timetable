@@ -236,11 +236,6 @@
         }
         
         function render(a, id, weekdayNumeric) {
-            if (a["component_code"].startsWith("LAB")) {
-                 if (!["EIE3105"].some(item => item == a["subject_code"])) { 
-                      return; 
-                 }
-            }
             const hMStartTime = a["start_time"].split(":");
             const hMEndTime = a["end_time"].split(":");
             
@@ -327,6 +322,9 @@
                   `${a["subject_code"]}-${a["start_time"]}-${a["end_time"]}-${a["venue"]}`
                 )
               )
+              .filter(a => {
+                return !a["component_code"].startsWith("LAB") || ["EIE3105"].some(item => item == a["subject_code"])
+              })
               .forEach(a => {
                 render(a, ids[idx], idx);
               });
