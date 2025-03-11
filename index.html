@@ -323,7 +323,10 @@
                 )
               )
               .filter(a => {
-                return !a["component_code"].startsWith("LAB") || ["EIE3105"].some(item => item == a["subject_code"])
+                return 
+                  !a["component_code"].startsWith("LAB") || 
+                  !a["component_code"].startsWith("WKS") || 
+                  ["EIE3105"].some(item => item == a["subject_code"])
               })
               .forEach(a => {
                 render(a, ids[idx], idx);
