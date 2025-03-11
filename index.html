@@ -236,6 +236,11 @@
         }
         
         function render(a, id, weekdayNumeric) {
+            if (a["component_code"].startsWith("LAB")) {
+                 if (!["EIE3105"].some(item => item == a["subject_code"])) { 
+                      return; 
+                 }
+            }
             const hMStartTime = a["start_time"].split(":");
             const hMEndTime = a["end_time"].split(":");
             
