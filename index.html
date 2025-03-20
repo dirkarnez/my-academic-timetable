@@ -84,6 +84,12 @@
             padding-bottom: 0.5rem !important;
             background-color: #243540;
         }
+
+        .favorite {
+          filter: invert(21%) sepia(98%) saturate(7165%) hue-rotate(358deg) brightness(103%) contrast(111%); /*red*/
+          height: 1rem;
+          padding-left: 3px;
+        }
     </style>
     <link
         rel="stylesheet"
@@ -268,17 +274,21 @@
               (courseStartTime.getDay() == now.getDay() && courseEndTime.getDay() == now.getDay()) && 
               (courseEndTime.getTime() > now.getTime());
 
-            // highlight coming-up courses for today
-            if (isCurrentOrComingUp && !isFavourite) {
-              div.style.color = "#00FFFF" // "cyan";
-            }
+            // // highlight coming-up courses for today
+            // if (isCurrentOrComingUp && !isFavourite) {
+            //   div.style.color = "#00FFFF" // "cyan";
+            // }
 
-            if (!isCurrentOrComingUp && isFavourite) {
-              div.style.color = "#7FFF00"; // "chartreuse"
-            }
+            // if (!isCurrentOrComingUp && isFavourite) {
+            //   div.style.color = "#7FFF00"; // "chartreuse"
+            // }
 
-            if (isCurrentOrComingUp && isFavourite) {
-              div.style.color = "#ff7f7f";
+            // if (isCurrentOrComingUp && isFavourite) {
+            //   div.style.color = "#ff7f7f";
+            // }
+
+            if (isCurrentOrComingUp) {
+               div.style.color = "#00FFFF" // "cyan";
             }
 
             const ahref = document.createElement("a");
@@ -288,6 +298,14 @@
             div.appendChild(document.createTextNode(`${a["start_time"]}-${a["end_time"]}`));
             div.appendChild(ahref);
             div.appendChild(document.createTextNode(`(${a["component_code"]}) - ${a["subject_title"]} ${a["venue"]}`));
+
+            if (isFavourite) {
+              // <img src="https://www.svgrepo.com/download/4910/favorite.svg">
+              const img = document.createElement("img");
+              img.src = "./favorite-svgrepo-com.svg";
+              img.classList.add("favorite");
+              div.appendChild(img);
+            }
             document.getElementById(id).parentNode.appendChild(div);
         }
 
